@@ -54,7 +54,7 @@ npm run dev
 # or
 yarn dev
 
-## 📁 Project Structure
+ 📁 Project Structure
 /
 ├── app/
 │   ├── components/        # Reusable UI components
@@ -65,7 +65,7 @@ yarn dev
 ├── README.md
 └── ...
 
-## 🤝 Contact
+🤝 Contact
 Questions or feedback?
 Feel free to reach out!
 

@@ -1,73 +1,92 @@
-# Welcome to your Lovable project
+🌿 Dr. Serena Blake – Therapist Website
+Welcome to the official website for Dr. Serena Blake, PsyD – an imaginary therapist based in Los Angeles.
+This project demonstrates a clean, modern, and mobile-friendly therapist website, built with the latest web technologies.
+It’s designed to inspire confidence, provide essential information, and encourage new client engagement through a beautiful and accessible user experience.
 
-## Project info
+🚀 Features
+Stunning Hero Section: Welcoming introduction with a clear call-to-action.
 
-**URL**: https://lovable.dev/projects/683998c6-d98d-41bf-9651-e010bba665cf
+About Dr. Blake: Credentials, bio, location, and office hours.
 
-## How can I edit this code?
+Therapy Services: Visually engaging cards for each specialty.
 
-There are several ways of editing your application.
+Interactive FAQ: Smooth, accessible accordion for common questions.
 
-**Use Lovable**
+Validated Contact Form: Easy appointment requests with instant feedback.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/683998c6-d98d-41bf-9651-e010bba665cf) and start prompting.
+Fully Responsive: Looks great on any device.
 
-Changes made via Lovable will be committed automatically to this repo.
+Performance Optimized: Built with Next.js 14 and Tailwind CSS.
 
-**Use your preferred IDE**
+Deployed on Vercel: Lightning-fast global hosting.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+🛠️ Tech Stack
+Framework: Next.js 14 (App Router)
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Styling: Tailwind CSS
 
-Follow these steps:
+UI Components: Shadcn UI (for interactive elements)
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Deployment: Vercel
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
-npm i
+🏁 Getting Started:
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+Prerequisites
+Node.js (v18+ recommended)
+
+npm or yarn
+Installation
+# Clone the repository
+git clone https://github.com/kavyaa25/Therapist-Website.gitso.git
+
+# Navigate into the project directory
+cd Therapist-Website.gitso
+
+# Install dependencies
+npm install
+# or
+yarn install
+
+# Start the development server
 npm run dev
-```
+# or
+yarn dev
 
-**Edit a file directly in GitHub**
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+📁 Project Structure
+/
+├── app/
+│   ├── components/        # Reusable UI components
+│   ├── (section folders)  # Hero, About, Services, FAQ, Contact
+│   └── layout.tsx         # Main layout file
+├── public/                # Static assets and images
+├── styles/                # Tailwind and global styles
+├── README.md
+└── ...
+🖼️ Screenshots
+Add screenshots here to showcase your homepage, services, FAQ, and contact form!
 
-**Use GitHub Codespaces**
+📝 Customization
+Want to use this template for your own project?
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Replace the content in each section with your own details.
 
-## What technologies are used for this project?
+Swap out images in the /public folder.
 
-This project is built with:
+Adjust colors and styles via tailwind.config.js for a custom look.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+🤝 Contact
+Questions or feedback?
+Feel free to reach out!
 
-## How can I deploy this project?
+Kavyaa
 
-Simply open [Lovable](https://lovable.dev/projects/683998c6-d98d-41bf-9651-e010bba665cf) and click on Share -> Publish.
+GitHub Profile
 
-## Can I connect a custom domain to my Lovable project?
+📄 License
+This project is open-source and for demonstration/educational purposes.
 
-Yes, you can!
+Live Demo: https://therapist-website-ten.vercel.app/
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Thank you for checking out this project! If you like it, consider starring the repo ⭐️
